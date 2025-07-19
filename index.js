@@ -105,12 +105,6 @@ client.on("messageReactionAdd", async (reaction, user) => {
 
   // check if the flag is supported
   if (!flagMap.hasOwnProperty(reaction.emoji.name)) {
-    const embed = embeds({
-      nameCommand: "Translate",
-      description: `Sorry, I don't support the language for ${reaction.emoji.name} yet.`,
-      color: "Red",
-    });
-    await reaction.message.reply({ embeds: [embed] });
     return; // skip unsupported languages
   }
 
