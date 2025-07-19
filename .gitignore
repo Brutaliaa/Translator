@@ -140,6 +140,7 @@ vite.config.ts.timestamp-*
 
 # Private file used for bot development. A template is provided in the repository.
 private/private.env
+private/private2.env
 
 # Images for the bot
 private/images

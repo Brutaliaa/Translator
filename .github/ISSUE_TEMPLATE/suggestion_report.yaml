@@ -1,0 +1,28 @@
+name: Suggestion Report
+description: Report a suggestion or feature request for the bot.
+labels: suggestion
+body:
+  - type: textarea
+    id: what-idea
+    attributes:
+      label: What is your suggestion?
+      description: Please describe your suggestion or feature request in detail.
+      placeholder: Tell me your idea!
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation / Use Case
+      description: Why do you want this feature? What problem does it solve?
+      placeholder: Explain the motivation behind your suggestion.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Have you considered any alternative solutions or features?
+      placeholder: List any alternatives you've thought about.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Add any other context, screenshots, or references here.
+      placeholder: Any extra info?
